@@ -23,6 +23,7 @@
                     <td>
                         <a href="#" class="btn btn-sm btn-primary">Düzenle</a>
                         <a href="#" class="btn btn-sm btn-danger">Kaldır</a>
+                        <a href="#" class="btn btn-sm btn-danger">Kaldır</a>
                     </td>
                 </tr>
                 @endforeach
