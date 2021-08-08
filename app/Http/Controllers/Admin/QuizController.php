@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\CreateQuiz;
 use Illuminate\Http\Request;
 use App\Models\Quiz;
 
@@ -26,7 +27,7 @@ class QuizController extends Controller
      */
     public function create()
     {
-        return "create fonksiyorunu";
+        return view('admin.quiz.create');
     }
 
     /**
