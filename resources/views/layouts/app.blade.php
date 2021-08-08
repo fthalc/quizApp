@@ -47,7 +47,9 @@
         </div>
 
         @stack('modals')
-        {{$js}}
+        @isset($js)
+            {{$js}}
+        @endif
         @livewireScripts
     </body>
 </html>
