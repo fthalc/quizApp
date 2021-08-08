@@ -38,7 +38,7 @@ class QuizController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return $request->post();
     }
 
     /**
